@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*css reset yahoo*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {font-size: 14px; margin:0; padding:0;font-family: "Microsoft YaHei"}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,th,var { font-style:normal; font-weight:normal;}
+ul { list-style:none;}
+a{text-decoration: none; cursor:pointer;}
+caption{ text-align:left;}
+h1,h2,h3,h4,h5,h6 { font-size:100%;	font-weight:normal;}
+q:before,q:after { content:'';}
+abbr,acronym { border:0;}
+input {outline: none;border: none}
+/** 清除浮动 **/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block}
+* html .clearfix{height:0;}
+.clearfix{display:block}
+
+/*统一字体样式*/
+body,button,input,select,textarea { font-family: "microsoft yahei";}
+select, input, button, textarea{font-family: "microsoft yahei";}
+
+/*定位*/
+.tl{text-align:left}
+.tc{text-align:center}
+.tr{text-align:right}
+.bc{margin-left:auto;margin-right:auto;}
+.fl{float:left;display:inline}
+.fr{float:right;display:inline}
+.cb{clear:both}
+.cl{clear:left}
+.cr{clear:right}
+.vm{vertical-align:middle}
+.pr{position:relative}
+.pa{position:absolute}
+.abs-right{position:absolute;right:0}
+.zoom{zoom:1}
+.hidden{display:none}
+.none{display:none}
+.pt40 {padding-top: 40px}
+.h160{height: 160px}
+.h200{height: 160px}
+.mt40{margin-top: 40px}
+.g-box{
+    left: 0;
+    right: 0;
+}
+.g-boxInner{
+    position: relative;
+    width: 1200px;
+    margin: auto;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
